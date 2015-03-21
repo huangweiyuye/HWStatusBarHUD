@@ -10,6 +10,13 @@
 
 @interface HWStatusBarHUD : NSObject
 /**
+ *  增加的一个新方法来测试
+ *
+ *  @param msg 信息
+ */
++ (void)showAllMsg:(NSString *)msg;
+
+/**
  *  显示图片及图片
  *
  *  @param msg   信息
